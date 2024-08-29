@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/logo.png</file>
+        <file>images/logon-bg.jpg</file>
+        <file>images/main-bg.jpg</file>
+        <file>images/add.ico</file>
+        <file>images/arrow_down.png</file>
+        <file>images/arrow_up.png</file>
+        <file>images/grid.png</file>
+        <file>images/home.png</file>
+        <file>images/list.png</file>
+        <file>images/monitor-bg.jpg</file>
+        <file>images/switch_off.png</file>
+        <file>images/switch_on.png</file>
+    </qresource>
+</RCC>

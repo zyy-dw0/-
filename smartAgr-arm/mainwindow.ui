@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#centralWidget
+{
+	border-image: url(:/images/main-bg.jpg);
+}
+QPushButton#btn_monitor,QPushButton#btn_control,QPushButton#btn_setting
+{
+	border-radius: 75px;
+	border-width: 1px;
+	border-style:solid;
+	background-color: rgb(170, 255, 255);
+}
+QPushButton#btn_logo
+{
+	
+	border-image: url(:/images/logo.png);
+}
+QPushButton#btn_monitor:pressed,QPushButton#btn_control:pressed,QPushButton#btn_setting:pressed
+{
+	
+	background-color: rgb(85, 255, 0);
+}
+QMessageBox
+{
+	background-color: rgb(170, 255, 255);
+}
+QMessageBox QPushButton
+{
+	background-color: transparent;
+	color:blue;
+	border-style: solid;
+	border-width:1px;
+	width:50px;
+	height:25px;
+}
+</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>10</y>
+      <width>681</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>24</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>物联网智慧农业系统</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_monitor">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>180</y>
+      <width>150</width>
+      <height>150</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="text">
+     <string>环境监测</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_control">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>180</y>
+      <width>150</width>
+      <height>150</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="text">
+     <string>设备控制</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_setting">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>180</y>
+      <width>150</width>
+      <height>150</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="text">
+     <string>系统设置</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

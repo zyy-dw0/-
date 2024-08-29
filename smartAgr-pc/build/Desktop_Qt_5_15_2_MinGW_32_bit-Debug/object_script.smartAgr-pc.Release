@@ -1,0 +1,12 @@
+release/main.o
+release/mainwindow.o
+release/logindialog.o
+release/monitorwindow.o
+release/monitorarea.o
+release/settingwindow.o
+release/qrc_res.o
+release/moc_mainwindow.o
+release/moc_logindialog.o
+release/moc_monitorwindow.o
+release/moc_monitorarea.o
+release/moc_settingwindow.o
